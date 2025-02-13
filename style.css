@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Sen',Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Altone Trial';
+    src: url(fontes/Altone\ Trial-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url(fontes/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 0px 6px #38383848;
+}
+
+ul{
+    display: flex;
+    border: 1px solid red;
+    margin-top: 25px;
+}
+
+ul li{
+    margin-left: 50px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    transition:  ease-in-out .2s;
+    font-family: 'Altone Trial';
+}
+
+ul li:hover{
+    color: rgb(2, 55, 228);
+    transition:  ease-in-out.2s;
+}
+
+.medida{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+#tituloMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+}
+
+#portfolio{
+    border: 1px solid red;
+    margin-right: 250px;
+    font-family: 'DMSans';
+}
+
+#desenvolvedor{
+    border: 1px solid red;
+    margin-left: 250px;
+    font-family: 'Altone Trial';
+    font-size: 2rem;
+}
+
+#desenvolvedor span{
+    font-family: 'DMSans';
+    font-weight: 200;
+}
