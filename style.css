@@ -1,11 +1,6 @@
 *{
     margin: 0;
 }
-
-body{
-    font-family: 'Sen',Arial, Helvetica, sans-serif;
-}
-
 @font-face {
     font-family: 'Altone Trial';
     src: url(fontes/Altone\ Trial-Regular.ttf);
@@ -16,15 +11,26 @@ body{
     src: url(fontes/DMSans-VariableFont_opsz\,wght.ttf);
 }
 
+:root{
+    --fontePrincipal: "DMSans";
+    --fonteSecundaria: "Altone Trial";
+    --cor00: #000;
+    --cor01: #000DFF;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     width: 100%;
     height: 60px;
-    box-shadow: 0px 0px 6px #38383848;
+    /* box-shadow: 0px 0px 6px #38383848; */
 }
 
 ul{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 25px;
 }
 
@@ -38,15 +44,20 @@ ul li{
     font-family: 'Altone Trial';
 }
 
-ul li:hover{
-    color: rgb(2, 55, 228);
+ul a{
+    text-decoration: none;
+    color: var(--cor00);
+}
+
+ul a:hover{
+    color: var(--cor01);
     transition:  ease-in-out.2s;
 }
 
 .medida{
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #tituloMain{
@@ -54,23 +65,39 @@ ul li:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 2.5rem;
 }
 
 #portfolio{
     border: 1px solid red;
-    margin-right: 250px;
+    margin-right: 260px;
     font-family: 'DMSans';
+    font-size: 3rem;
 }
 
 #desenvolvedor{
     border: 1px solid red;
-    margin-left: 250px;
+    margin-left: 260px;
     font-family: 'Altone Trial';
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 #desenvolvedor span{
     font-family: 'DMSans';
     font-weight: 200;
+}
+footer{
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rodapeProjeto{
+    border: 1px solid  red;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 35px;
+    font-family: var(--fontePrincipal);
+    font-weight: bold;
+
 }
