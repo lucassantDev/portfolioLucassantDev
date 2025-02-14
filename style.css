@@ -91,11 +91,37 @@ ul a:hover{
     border: 4px solid #000DFF;
 }
 
+#sobreDesenvolvedor{
+    width: 80%;
+    font-family: var(--fonteSecundaria);
+    font-weight: 500;
+    font-size: 1.3rem;
+    border: 1px solid red;
+    margin-left: 80px;
+}
+
+.caracterEspecial{
+    font-family: var(--fontePrincipal);
+    font-weight: 700;
+    color: var(--cor01);
+}
+/*  */
+
+#centralizarHabilidades{
+    width: 100%;
+    height: 50%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
 
 #habilidadesDesenvolvedor{
     border: 1px solid red;
-    width: 40%;
-    height: 20%;
+    width: 50%;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -103,8 +129,8 @@ ul a:hover{
 
 #habilidadesDesenvolvedor-bottom{
     border: 1px solid red;
-    width: 40%;
-    height: 20%;
+    width: 50%;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -115,16 +141,25 @@ ul a:hover{
     align-items: center;
     flex-direction: column;
     border: 1px solid red;
+}
 
+.descricaoTecnologia p{
+    font-family: var(--fonteSecundaria);
+    font-size: 1.2rem;
 }
 
 .tecnologias{
     width: 80px;
     height: 80px;
     background-color: #000DFF;
+    color: #fff;
+    font-size: 2rem;
     border-radius: 100%;
     margin-bottom: 10px;
     transition: ease-in-out 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tecnologias:hover{
@@ -132,6 +167,16 @@ ul a:hover{
     transition: ease-in-out 1s;
 }
 
+#sobreTecnologias{
+    border: 1px solid red;
+    width: 60%;
+    font-family: var(--fonteSecundaria);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+/*  */
 
 
 
