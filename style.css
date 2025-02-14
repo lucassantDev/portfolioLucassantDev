@@ -18,20 +18,22 @@
     --cor01: #000DFF;
 }
 
-html{
-    scroll-behavior: smooth;
-}
+html {   scroll-behavior: smooth;}
 
 header{
     width: 100%;
     height: 60px;
+    display: flex;
+    align-items: center;
     /* box-shadow: 0px 0px 6px #38383848; */
 }
+
+
 
 ul{
     display: flex;
     /* border: 1px solid red; */
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 ul li{
@@ -40,24 +42,25 @@ ul li{
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: lighter;
-    transition:  ease-in-out .2s;
     font-family: 'Altone Trial';
 }
 
 ul a{
     text-decoration: none;
     color: var(--cor00);
+    transition:  ease-in-out .3s;
 }
 
 ul a:hover{
     color: var(--cor01);
-    transition:  ease-in-out.2s;
+    transition:  ease-in-out .3s;
 }
+
 
 .medida{
     width: 100%;
-    height: 100vh;
-    /* border: 1px solid red; */
+    height: 102.4vh;
+    border: 1px solid red;
 }
 
 #tituloMain{
@@ -68,23 +71,70 @@ ul a:hover{
 }
 
 #portfolio{
-    border: 1px solid red;
     margin-right: 260px;
     font-family: 'DMSans';
     font-size: 3rem;
 }
 
 #desenvolvedor{
-    border: 1px solid red;
     margin-left: 260px;
     font-family: 'Altone Trial';
     font-size: 2.5rem;
 }
 
-#desenvolvedor span{
-    font-family: 'DMSans';
-    font-weight: 200;
+#desenvolvedor span{    font-family: 'DMSans'; font-weight: 200;}
+/*  */
+
+#imagemDesenvolvedor img{
+    scale: 0.7;
+    border-radius: 0px 70px 70px 0px;
+    border: 4px solid #000DFF;
 }
+
+
+#habilidadesDesenvolvedor{
+    border: 1px solid red;
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#habilidadesDesenvolvedor-bottom{
+    border: 1px solid red;
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.descricaoTecnologia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+
+}
+
+.tecnologias{
+    width: 80px;
+    height: 80px;
+    background-color: #000DFF;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    transition: ease-in-out 1s;
+}
+
+.tecnologias:hover{
+    background-color: var(--cor00);
+    transition: ease-in-out 1s;
+}
+
+
+
+
 footer{
     width: 100%;
     height: 12rem;
