@@ -16,25 +16,20 @@
     --fonteSecundaria: "Altone Trial";
     --cor00: #000;
     --cor01: #000DFF;
+    --cor02: #0fc4c49d;
 }
 
 html {   scroll-behavior: smooth;}
 
+/* -------------------------------- Inicio da estilização do header */
 header{
     width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
-    /* box-shadow: 0px 0px 6px #38383848; */
 }
 
-
-
-ul{
-    display: flex;
-    /* border: 1px solid red; */
-    /* margin-top: 25px; */
-}
+ul {display: flex;}
 
 ul li{
     margin-left: 50px;
@@ -55,14 +50,40 @@ ul a:hover{
     color: var(--cor01);
     transition:  ease-in-out .3s;
 }
+/* -------------------------------- Fim da estilização do header */
 
 
 .medida{
     width: 100%;
-    height: 102.4vh;
+    height: 110vh;
     border: 1px solid red;
 }
 
+.numeracaoPagina{
+    border: 1px solid red;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.numeracaoPagina div{
+    width: 70px;
+    height: 70px;
+    background-color: var(--cor00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cor02);
+    font-family: var(--fontePrincipal);
+    margin-left: 6px;
+}
+
+
+/* -------------------------------- Inicio da estilização do #tituloMain */
 #tituloMain{
     display: flex;
     align-items: center;
@@ -73,18 +94,29 @@ ul a:hover{
 #portfolio{
     margin-right: 260px;
     font-family: 'DMSans';
-    font-size: 3rem;
+    font-size: 4rem;
+    background: linear-gradient(45deg ,#0000FE, #0fc4c49d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 #desenvolvedor{
     margin-left: 260px;
     font-family: 'Altone Trial';
     font-size: 2.5rem;
+    background: linear-gradient(-90deg , #0fc4c49d,#0000FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
-#desenvolvedor span{    font-family: 'DMSans'; font-weight: 200;}
-/*  */
+#desenvolvedor span{  font-family: 'DMSans'; font-weight: 200;}
 
+/* -------------------------------- Fim da estilização do #tituloMain */
+
+
+/* -------------------------------- Inicio da estilização da #secao01 */
 #imagemDesenvolvedor img{
     scale: 0.7;
     border-radius: 0px 70px 70px 0px;
@@ -96,8 +128,8 @@ ul a:hover{
     font-family: var(--fonteSecundaria);
     font-weight: 500;
     font-size: 1.3rem;
-    border: 1px solid red;
     margin-left: 80px;
+    margin-bottom: 30px;
 }
 
 .caracterEspecial{
@@ -105,42 +137,44 @@ ul a:hover{
     font-weight: 700;
     color: var(--cor01);
 }
-/*  */
+/* -------------------------------- Fim da estilização da #secao01 */
 
+
+/* -------------------------------- Inicio da estilização da #secao02 */
 #centralizarHabilidades{
     width: 100%;
     height: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #habilidadesDesenvolvedor{
-    border: 1px solid red;
     width: 50%;
     height: 40%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* border: 1px solid red; */
 }
 
 #habilidadesDesenvolvedor-bottom{
-    border: 1px solid red;
     width: 50%;
     height: 40%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* border: 1px solid red; */
+    margin-top: 10px;
 }
 
 .descricaoTecnologia{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .descricaoTecnologia p{
@@ -149,50 +183,75 @@ ul a:hover{
 }
 
 .tecnologias{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-color: #000DFF;
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 100%;
     margin-bottom: 10px;
-    transition: ease-in-out 1s;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: ease-in-out 0.7s;
 }
 
 .tecnologias:hover{
-    background-color: var(--cor00);
-    transition: ease-in-out 1s;
+    background-color: var(--cor02);
+    transition: ease-in-out 0.7s;
+    color: var(--cor00);
 }
 
 #sobreTecnologias{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 60%;
     font-family: var(--fonteSecundaria);
     font-size: 1.3rem;
     font-weight: 500;
     margin-left: 80px;
     margin-top: 80px;
+    margin-bottom: 30px;
 }
-/*  */
+/* -------------------------------- Fim da estilização da #secao02 */
 
 
 
+/* -------------------------------- Inicio da estilização do footer */
 footer{
     width: 100%;
     height: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50px 50px 0px 0px;
+    background-color: #000DFF;
+    /* border: 1px solid red; */
 }
 #rodapeProjeto{
-    border: 1px solid  red;
+    border: 2px solid  #fff;
     padding: 15px;
     width: fit-content;
     border-radius: 35px;
     font-family: var(--fontePrincipal);
     font-weight: bold;
+    color: #fff;
 
 }
+
+/* -------------------------------- Fim da estilização do footer */
+
+
+/* Inicio da medida para tablets */
+@media screen and (min-width: 420px) and (max-width:1000px){
+    
+}
+/* -------------------------------- Fim da estilização da medida para tablets */
+
+
+/* Inicio da medida para smartphones */
+@media screen and (min-width: 300px) and (max-width:420px) {
+    
+}
+/* -------------------------------- Fim da estilização da medida  para smartphones */
+
+
