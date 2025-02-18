@@ -301,7 +301,7 @@ footer{
 
 
 /* Inicio da medida para tablets */
-@media screen and (min-width: 40px) and (max-width:1000px){
+@media screen and (min-width: 481px) and (max-width:1000px){
     header{
         display: none;
     }
@@ -310,8 +310,78 @@ footer{
 
 
 /* Inicio da medida para smartphones */
-@media screen and (min-width:300px) and (max-width:420px){
-    
+@media screen and (max-width:480px){
+    header, #paletaCores, #imagemDesktop, .quadrado,#mobileTablet
+    , #habilidadesDesenvolvedor, #habilidadesDesenvolvedor-bottom{
+        display: none;
+    }
+
+    /*  */
+    #tituloMain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #portfolio{
+        font-size: 2rem;
+        margin-right: 0;
+    }
+    #desenvolvedor{
+        font-size: 1.7rem;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    /*  */
+
+    #secao01{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #imagemDesenvolvedor #imagemTabletMobile{
+        display: flex;
+        border: none;
+    }
+
+    #sobreDesenvolvedor{
+        width: 100%;
+        margin-left: 0;
+        font-size: 1rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    /*  */
+
+    #centralizarHabilidades #habilidadesTabletMobile{
+        gap: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .descricaoTecnologia{
+        scale: 0.8;
+    }
+
+    #sobreTecnologias{
+        width: 100%;
+        margin-left:0;
+        margin-top: 120px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    /*  */
+
+    footer{ height: 5rem; }
+    #rodapeProjeto{
+        scale: 0.8;
+        text-align: center;
+    }
+}
 /* -------------------------------- Fim da estilização da medida  para smartphones */
-
-
