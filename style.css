@@ -25,7 +25,7 @@ html {   scroll-behavior: smooth;}
 /* -------------------------------- Inicio da estilização do header */
 header{
     width: 100%;
-    height: 70px;
+    height: 100px;
     display: flex;
     align-items: center;
 }
@@ -61,7 +61,7 @@ ul a:hover{
 }
 
 .numeracaoPagina{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 30%;
     height: 100px;
     display: flex;
@@ -73,16 +73,18 @@ ul a:hover{
 .quadrado{
     width: 60px;
     height: 60px;
-    background-color: var(--cor00);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--cor03);
+    color: #858484;
+    border: 2px solid #858484;
     font-family: var(--fontePrincipal);
     margin-left: 10px;
-    border-radius: 20px;
+    border-radius: 100%;
+    transition: 1s ease-in-out;
+
 }
 
 /* -------------------------------- Inicio da estilização do #tituloMain */
@@ -94,20 +96,19 @@ ul a:hover{
 }
 
 #secao01:hover #numero01{
+    background-image: none;
     background-color: #fff;
-    color: var(--cor01);
-    transition: 0.5s ease-in-out;
+    color: var(--cor02);
+    transition: 1s ease-in-out;
     border: 2px solid;
     border-radius: 50%;
-
-
 }
 #secao01 #numero01{
-    transition: 0.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 #portfolio{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 260px;
     font-family: 'DMSans';
     font-size: 4rem;
@@ -142,13 +143,13 @@ ul a:hover{
     justify-content: space-evenly;
     /* border: 1px solid red; */
     width: 50%;
-    
 }
 #laranja{
     background-color: var(--cor02);
     width: 308px;
     height: 42px;
 }
+
 
 #azul{
     background-color: var(--cor01);
@@ -194,15 +195,15 @@ ul a:hover{
 /* -------------------------------- Inicio da estilização da #secao02 */
 #secao02:hover #numero02{
     background-color: #fff;
-    color: var(--cor01);
-    transition: 0.5s ease-in-out;
+    color: var(--cor02);
+    transition: 1s ease-in-out;
     border: 2px solid;
     border-radius: 50%;
 
 
 }
 #secao02 #numero02{
-    transition: 0.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 #centralizarHabilidades{
@@ -260,14 +261,7 @@ ul a:hover{
     transition: ease-in-out 0.7s;
 }
 
-.tecnologias:hover{
-    background-color: var(--cor02);
-    transition: ease-in-out 0.7s;
-    color: var(--cor00);
-}
-
 #sobreTecnologias{
-    /* border: 1px solid red; */
     width: 60%;
     font-family: var(--fonteSecundaria);
     font-size: 1.3rem;
@@ -279,17 +273,15 @@ ul a:hover{
 /* -------------------------------- Fim da estilização da #secao02 */
 
 
-
 /* -------------------------------- Inicio da estilização do footer */
 footer{
     width: 100%;
-    height: 12rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50px 50px 0px 0px;
-    background-color: #000DFF;
-    /* border: 1px solid red; */
+    background-image: linear-gradient(50deg, var(--cor02), var(--cor01), var(--cor03));
 }
 #rodapeProjeto{
     border: 2px solid  #fff;
