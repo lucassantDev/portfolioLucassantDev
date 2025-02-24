@@ -345,12 +345,13 @@ footer{
     #imagemDesenvolvedor #imagemTabletMobile{
         display: flex;
         border: none;
+        border-radius: 0;
     }
 
     #sobreDesenvolvedor{
         width: 100%;
         margin-left: 0;
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-bottom: 0;
         text-align: center;
     }
@@ -373,7 +374,7 @@ footer{
         width: 100%;
         margin-left:0;
         margin-top: 120px;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
     }
     /*  */
