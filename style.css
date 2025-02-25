@@ -278,6 +278,28 @@ ul a:hover{
 
 /* -------------------------------- Inicio da estilização da #secao04 */
 
+.redes{
+    border: 1px solid red;
+    display: flex;
+}
+
+.redes div{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes p{
+    border: 1px solid red;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* -------------------------------- Fim da estilização da #secao04 */
 
 
