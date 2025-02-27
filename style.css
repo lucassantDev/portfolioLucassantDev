@@ -326,14 +326,16 @@ ul a:hover{
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    border: 2px solid var(--cor01);
+    border: 5px solid var(--cor01);
+    border-radius: 25px 0px 25px 0px;
     cursor: pointer;
     transition: .3s;
 
 }
 
 .redes:hover{
-    border: 2px solid var(--cor00);
+    border: 5px solid var();
+    border-radius: 0px 25px 0px 25px;
     transition: .3s;
 }
 
