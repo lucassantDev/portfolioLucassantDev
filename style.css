@@ -18,6 +18,7 @@
     --cor01: #000DFF;
     --cor02: #FF5A13;
     --cor03: #0fc4c49d;
+    --corModoDark: #222222;
 }
 
 html {   scroll-behavior: smooth;}
@@ -34,7 +35,7 @@ ul {display: flex;
     /* border: 1px solid red; */
 }
 
-#modoTela{
+.modoTela{
     border: 2px solid var(--cor01);
     width: 120px;
     height: 45px;
@@ -42,16 +43,110 @@ ul {display: flex;
     border-radius: 25px;
     display: flex;
     align-items: center;
+    position: relative;
+    transition: .5s;
 }
 
-#modoTela div{
+.lightDarkMode{
     width: 30px;
     height: 30px;
     border-radius: 25px;
     border: 2px solid var(--cor01);
     margin-left: 10px;
     cursor: pointer;
+    position: absolute;
+    left: 0;
+    transition: .5s;
 }
+
+.modoTela.dark .lightDarkMode{
+    left: 65px;
+    transition: .5s;
+    background-color:var(--corModoDark) ;
+    border: 2px solid #fff;
+}
+
+.modoTela.dark {
+    transition: .5s;
+    background-color: var(--corModoDark);
+    border: 2px solid #fff;
+}
+
+body.dark{
+    background-color: var(--corModoDark);
+}
+
+body.dark p{
+    color: #fff;
+    transition: .5s;
+}
+body.dark span{
+    color: var(--cor02);
+    transition: .5s;
+}
+
+body.dark a{
+    color: #fff;
+    transition:  ease-in-out .3s;
+}
+
+body.dark a:hover{
+    color: var(--cor02);
+    transition:  ease-in-out .3s;
+}
+
+body.dark .redes{
+    border: 5px solid #fff;
+    transition: .3s;
+}
+
+body.dark .redes:hover{
+    color: var(--cor02);
+    border: 5px solid var(--cor02);
+    transition: .3s;
+}
+
+body.dark .redes p{
+    color: #fff;
+    transition: .3s;
+}
+
+body.dark .redes:hover p{
+    color: var(--cor02);
+    transition: .3s;
+}
+
+body.dark .redes:hover div{
+    color: var(--cor02);
+    transition: .3s;
+}
+
+body.dark .redes div{
+    color: #fff;
+}
+
+body.dark #portfolio{
+    background: linear-gradient(to left,var(--cor02), var(--cor01));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+body.dark #desenvolvedor{
+    background: linear-gradient(to left,var(--cor02), var(--cor01));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+body.dark .tecnologias{
+    background-color: #fff;
+    color: var(--corModoDark);
+}
+
+
+body.dark #imagemDesenvolvedor img{
+    border: 4px solid var(--cor02);
+}
+
 
 ul li{
     margin-left: 50px;
@@ -122,7 +217,7 @@ ul a:hover{
 
 #secao01:hover #numero01{
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
     color: var(--cor02);
     transition: 1s ease-in-out;
     border: 2px solid;
@@ -157,38 +252,12 @@ ul a:hover{
 #desenvolvedor span{  font-family: 'DMSans'; font-weight: 200;}
 
 #paletaCores{
-    width: 100%;
-    height: 15%;
-    /* border: 1px solid red; */
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01), var(--cor03));
 }
 
-#linhaTopo{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    /* border: 1px solid red; */
-    width: 50%;
-}
-#laranja{
-    background-color: var(--cor02);
-    width: 308px;
-    height: 42px;
-}
-
-
-#azul{
-    background-color: var(--cor01);
-    width: 50px;
-    height: 42px;
-}
-
-#azulClaro{
-    background-color: var(--cor03);
-    width: 253px;
-    height: 42px;
-    margin-top: 20px;
-    margin-left: 520px;
-}
 
 /* -------------------------------- Fim da estilização do #tituloMain */
 
@@ -219,7 +288,7 @@ ul a:hover{
 
 /* -------------------------------- Inicio da estilização da #secao02 */
 #secao02:hover #numero02{
-    background-color: #fff;
+    background-color: transparent;
     color: var(--cor02);
     transition: 1s ease-in-out;
     border: 2px solid;
@@ -301,7 +370,7 @@ ul a:hover{
 /* -------------------------------- Inicio da estilização da #secao03 */
 
 #secao03:hover #numero03{
-    background-color: #fff;
+    background-color: transparent;
     color: var(--cor02);
     transition: 1s ease-in-out;
     border: 2px solid;
@@ -334,14 +403,22 @@ ul a:hover{
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 50px;
+    border-radius: 20px 20px 0px 0px;
 
 }
 
 .imagemProjeto{
     width: 100%;
     height: 40%;
-    border: 2px solid var(--cor01);
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.imagemProjeto img{
+    scale: 0.7;
+    /* border: 1px solid red; */
 }
 
 /* -------------------------------- Fim da estilização da #secao03 */
@@ -349,7 +426,7 @@ ul a:hover{
 
 /* -------------------------------- Inicio da estilização da #secao04 */
 #secao04:hover #numero04{
-    background-color: #fff;
+    background-color: transparent;
     color: var(--cor02);
     transition: 1s ease-in-out;
     border: 2px solid;

@@ -1,6 +1,6 @@
 addEventListener("click", githubLink());
 addEventListener("click", linkedinLink());
-addEventListener("click", darkMode());
+addEventListener("click", mudarCor());
 
 
 function githubLink(){
@@ -11,5 +11,10 @@ function linkedinLink(){
     window.open("https://www.linkedin.com/in/lucasferreira2023--/");
 }
 
-function darkMode(){
+
+function mudarCor(){
+    let modoTela = document.getElementById('modoTela');
+    let body = document.querySelector('body');
+    modoTela.classList.toggle('dark'); // a propriedade toggle insere ou remove uma classe 
+    body.classList.toggle('dark'); // a propriedade toggle insere ou remove uma classe 
 }

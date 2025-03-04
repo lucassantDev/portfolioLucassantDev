@@ -16,8 +16,8 @@
             <li><a href="#secao03">Projetos</a></li>
             <li><a href="#secao04">Minhas redes</a></li>
         </ul>
-        <div id="modoTela">
-            <div onclick="darkMode()"></div>
+        <div class="modoTela" id="modoTela">
+            <div class="lightDarkMode" onclick="mudarCor()"></div>
         </div>
     </header> <!-- fim da tag header(cabeçalho)-->
 
@@ -42,13 +42,7 @@
             <div id="portfolio"><h1>Portfólio</h1></div>
             <div id="desenvolvedor"><p>lucassant<span>Dev</span></p></div>
 
-            <div id="paletaCores">
-                <div id="linhaTopo">
-                    <div id="laranja"></div>
-                    <div id="azul"></div>
-                </div>
-                <div id="azulClaro"></div>
-            </div>
+            <div id="paletaCores"></div>
             
         </div> <!-- final da div #tituloMain-->
 
@@ -65,7 +59,7 @@
                 <p>
                     Me chamo <span class="caracterEspecial">Lucas Ferreira de Santana</span>, natural de Recife, iniciei meus estudos <br> em <span class="caracterEspecial">2023</span> quando ingressei na escola técnica SENAI no curso de <br> Desenvolvimento de Sistemas. <br> <br>
 
-                    Hoje, com <span class="caracterEspecial">19</span> anos, busco a cada dia melhorar minhas habilidades como desenvolvedor estudando e aplicando,  para que assim, eu possa estar minimamente preparado para o mercado de trabalho.
+                    Hoje, com <span style="font-family: 'DMSans';">19</span> anos, busco a cada dia melhorar minhas habilidades como <span class="caracterEspecial">desenvolvedor frontend</span>, visando ampliar meu conhecimento e conseguir minha primeira vaga nesse vasto mercado.
                 </p>
             </div>
 
@@ -215,7 +209,9 @@
                     </p>
                 </div>
                 <div class="projetos">
-                    <div class="imagemProjeto"></div>
+                    <div class="imagemProjeto">
+                        <img src="img/destinizeIMG.png" alt="">
+                    </div>
                     <h2>Destinize</h2>
                     <p>
                         O projeto Destinize, voltado para fins educacionais, se trata de um site <br>
