@@ -1,8 +1,8 @@
-@import url(header.css);
-@import url(secao01.css);
-@import url(secao02.css);
-@import url(secao03.css);
-@import url(secao04.css);
-@import url(footer.css);
-@import url(components.css);
-@import url(tituloMain.css);
+@import url(css/header.css);
+@import url(css/tituloMain.css);
+@import url(css/secao01.css);
+@import url(css/secao02.css);
+@import url(css/secao03.css);
+@import url(css/secao04.css);
+@import url(css/footer.css);
+@import url(css/components.css);
