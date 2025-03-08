@@ -1,0 +1,34 @@
+/* Estilização da #secao01 */
+#secao01:hover #numero01{
+    background-image: none;
+    background-color: transparent;
+    color: var(--cor02);
+    transition: 1s ease-in-out;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+#secao01 #numero01{
+    transition: 1s ease-in-out;
+}
+
+#imagemDesenvolvedor img{
+    scale: 0.7;
+    border-radius: 0px 70px 70px 0px;
+    border: 4px solid #000DFF;
+}
+
+#sobreDesenvolvedor{
+    width: 80%;
+    font-family: var(--fonteSecundaria);
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.caracterEspecial{
+    font-family: var(--fontePrincipal);
+    font-weight: 700;
+    color: var(--cor01);
+}

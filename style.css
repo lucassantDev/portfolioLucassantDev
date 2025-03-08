@@ -1,9 +1,5 @@
-@import url(assets/css/header.css);
+@import url(assets/css/index.css);
 
-
-*{
-    margin: 0;
-}
 @font-face {
     font-family: 'Altone Trial';
     src: url(assets/fontes/Altone\ Trial-Regular.ttf);
@@ -24,366 +20,9 @@
     --corModoDark: #222222;
 }
 
-html {   scroll-behavior: smooth;}
-
-/* -------------------------------- Inicio da estilização do header */
-
-/* -------------------------------- Fim da estilização do header */
-
-
-.medida{
-    width: 100%;
-    height: 110vh;
-    /* border: 1px solid red; */
-}
-
-.numeracaoPagina{
-    /* border: 1px solid red; */
-    width: 30%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 80px;
-}
-
-.quadrado{
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #858484;
-    border: 2px solid #858484;
-    font-family: var(--fontePrincipal);
-    margin-left: 10px;
-    border-radius: 100%;
-    transition: 1s ease-in-out;
-
-}
-
 #habilidadesTabletMobile, #imagemTabletMobile, #mobileTablet{
     display: none;
 }
-
-/* -------------------------------- Inicio da estilização do #tituloMain */
-#tituloMain{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#secao01:hover #numero01{
-    background-image: none;
-    background-color: transparent;
-    color: var(--cor02);
-    transition: 1s ease-in-out;
-    border: 2px solid;
-    border-radius: 50%;
-}
-#secao01 #numero01{
-    transition: 1s ease-in-out;
-}
-
-#portfolio{
-    margin-top: 40px;
-    margin-right: 260px;
-    font-family: 'DMSans';
-    font-size: 4rem;
-    background: linear-gradient(45deg ,#0000FE, #0fc4c49d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-}
-
-#desenvolvedor{
-    margin-left: 260px;
-    font-family: 'Altone Trial';
-    font-size: 2.5rem;
-    background: linear-gradient(-90deg , #0fc4c49d,#0000FE);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    margin-bottom: 150px;
-}
-
-#desenvolvedor span{  font-family: 'DMSans'; font-weight: 200;}
-
-#paletaCores{
-    width: 90%;
-    height: 10px;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, var(--cor02), var(--cor01), var(--cor03));
-}
-
-
-/* -------------------------------- Fim da estilização do #tituloMain */
-
-
-/* -------------------------------- Inicio da estilização da #secao01 */
-#imagemDesenvolvedor img{
-    scale: 0.7;
-    border-radius: 0px 70px 70px 0px;
-    border: 4px solid #000DFF;
-}
-
-#sobreDesenvolvedor{
-    width: 80%;
-    font-family: var(--fonteSecundaria);
-    font-weight: 500;
-    font-size: 1.3rem;
-    margin-left: 80px;
-    margin-bottom: 30px;
-}
-
-.caracterEspecial{
-    font-family: var(--fontePrincipal);
-    font-weight: 700;
-    color: var(--cor01);
-}
-/* -------------------------------- Fim da estilização da #secao01 */
-
-
-/* -------------------------------- Inicio da estilização da #secao02 */
-#secao02:hover #numero02{
-    background-color: transparent;
-    color: var(--cor02);
-    transition: 1s ease-in-out;
-    border: 2px solid;
-    border-radius: 50%;
-
-
-}
-#secao02 #numero02{
-    transition: 1s ease-in-out;
-}
-
-#centralizarHabilidades{
-    width: 100%;
-    height: 50%;
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-#habilidadesDesenvolvedor{
-    width: 50%;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    /* border: 1px solid red; */
-}
-
-#habilidadesDesenvolvedor-bottom{
-    width: 50%;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    /* border: 1px solid red; */
-    margin-top: 10px;
-}
-
-.descricaoTecnologia{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.descricaoTecnologia p{
-    font-family: var(--fonteSecundaria);
-    font-size: 1.2rem;
-}
-
-.tecnologias{
-    width: 100px;
-    height: 100px;
-    background-color: #000DFF;
-    color: #fff;
-    font-size: 2.5rem;
-    border-radius: 100%;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: ease-in-out 0.7s;
-}
-
-#sobreTecnologias{
-    width: 60%;
-    font-family: var(--fonteSecundaria);
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin-left: 80px;
-    margin-top: 80px;
-    margin-bottom: 30px;
-}
-/* -------------------------------- Fim da estilização da #secao02 */
-
-
-/* -------------------------------- Inicio da estilização da #secao03 */
-
-#secao03:hover #numero03{
-    background-color: transparent;
-    color: var(--cor02);
-    transition: 1s ease-in-out;
-    border: 2px solid;
-    border-radius: 50%;
-
-
-}
-#secao03 #numero03{
-    transition: 1s ease-in-out;
-}
-
-.funcoes{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    overflow-x: auto ;
-    margin-top: 50px;
-}
-
-.funcoes::-webkit-scrollbar{
-    width: 0px;
-}
-
-
-.projetos{
-    min-width: 300px;
-    max-height: 400px;
-    background-color: #fff;
-    border: 2px solid var(--cor01);
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 50px;
-    border-radius: 20px 20px 0px 0px;
-
-}
-
-.imagemProjeto{
-    width: 100%;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.imagemProjeto img{
-    scale: 0.7;
-    /* border: 1px solid red; */
-}
-
-/* -------------------------------- Fim da estilização da #secao03 */
-
-
-/* -------------------------------- Inicio da estilização da #secao04 */
-#secao04:hover #numero04{
-    background-color: transparent;
-    color: var(--cor02);
-    transition: 1s ease-in-out;
-    border: 2px solid;
-    border-radius: 50%;
-
-
-}
-#secao04 #numero04{
-    transition: 1s ease-in-out;
-}
-
-#centralizarRedes{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.redes{
-    width: 500px;
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid var(--cor00);
-    border-radius: 25px 0px 25px 0px;
-    cursor: pointer;
-    transition: .3s;
-
-}
-
-.redes:hover{
-    border: 5px solid var(--cor01);
-    color: var(--cor01);
-    border-radius: 0px 25px 0px 25px;
-    transition: .3s;
-}
-
-.redes:hover div{
-    color: var(--cor01);
-    transition: .3s;
-}
-
-.redes div{
-    width: 100px;
-    height: 100px;
-    font-size: 3rem;
-    color: var(--cor00);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
-
-}
-
-.redes p{
-    width: 300px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--fonteSecundaria);
-    font-size: 1.2rem;
-}
-/* -------------------------------- Fim da estilização da #secao04 */
-
-
-
-
-/* -------------------------------- Inicio da estilização do footer */
-footer{
-    width: 100%;
-    height: 15rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-image: linear-gradient(50deg, var(--cor02), var(--cor01), var(--cor03)); */
-}
-#rodapeProjeto{
-    border: 2px solid var(--cor02);
-    padding: 15px;
-    width: 90%;
-    border-radius: 35px;
-    font-family: var(--fontePrincipal);
-    font-weight: bolder;
-    color: var(--cor02);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-/* -------------------------------- Fim da estilização do footer */
-
 
 /* Inicio da medida para tablets */
 @media screen and (min-width: 481px) and (max-width:1000px){
@@ -396,9 +35,13 @@ footer{
 
 /* Inicio da medida para smartphones */
 @media screen and (max-width:480px){
-    header, #paletaCores, #imagemDesktop, .quadrado,
+    header, #imagemDesktop, .quadrado,
     #habilidadesDesenvolvedor, #habilidadesDesenvolvedor-bottom{
         display: none;
+    }
+
+    .medida{
+        height: 110dvh;
     }
 
     #mobileTablet{
@@ -439,6 +82,11 @@ footer{
         font-size: 1.7rem;
         margin-left: 0;
         margin-bottom: 0;
+        margin-bottom: 150px;
+    }
+
+    #paletaCores{
+        height: 5px;
     }
     /*  */
 
@@ -456,15 +104,22 @@ footer{
     }
 
     #sobreDesenvolvedor{
-        width: 100%;
+        width: 80%;
+        height: fit-content;
         margin-left: 0;
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-bottom: 0;
-        text-align: center;
         font-weight: bold;
         color: #3a3838;
+        border: 1px solid red;
     }
     /*  */
+    #secao02{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
     #centralizarHabilidades #habilidadesTabletMobile{
         gap: 15px;
@@ -480,30 +135,28 @@ footer{
     }
 
     #sobreTecnologias{
-        width: 100%;
+        width: 90%;
         margin-left:0;
         margin-top: 120px;
-        font-size: 0.8rem;
-        text-align: center;
+        font-size: 1rem;
         font-weight: bold;
         color: #3a3838;
+        border: 1px solid red;
     }
     /*  */
 
     .redes{
-        width: 250px;
-        height: 200px;
+        width: 80%;
+        height: 170px;
         flex-direction: column;
     }
 
     .redes:hover{
-        border: 5px solid var(--cor01);
-        border-radius: 25px 0px 25px 0px;
-        transition: .3s;
+        transition: .6s;
     }
 
     .redes div{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .redes p{
@@ -511,7 +164,6 @@ footer{
         height: fit-content;
     }
     /*  */
-
 
     footer{ height: 15rem; }
     
