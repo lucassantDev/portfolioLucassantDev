@@ -1,0 +1,38 @@
+/* estilização da primeira parte do projeto */
+#tituloMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#portfolio{
+    margin-top: 40px;
+    margin-right: 260px;
+    font-family: 'DMSans';
+    font-size: 4rem;
+    background: linear-gradient(45deg ,#0000FE, #0fc4c49d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+#desenvolvedor{
+    margin-left: 260px;
+    font-family: 'Altone Trial';
+    font-size: 2.5rem;
+    background: linear-gradient(-90deg , #0fc4c49d,#0000FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin-bottom: 150px;
+}
+
+#desenvolvedor span{  font-family: 'DMSans'; font-weight: 200;}
+
+#paletaCores{
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--cor02), var(--cor01), var(--cor03));
+}
