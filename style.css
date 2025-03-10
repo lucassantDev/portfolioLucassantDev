@@ -59,6 +59,55 @@
         font-family: var(--fonteSecundaria);
     }
 
+    .funcionalidadesMobile{
+        background-color: #acacaccb;
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        width: 230px;
+        height: 60px;
+        position: fixed;
+        top: 89%;
+        left: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .setaInicio{
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        background: linear-gradient(65deg, #000DFF, #0fc4c49d);
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modoDarkLight{
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px solid #000DFF;
+        display: flex;
+        align-items: center;
+    }
+
+    .botaoModoDarkLight{
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        border: 1px solid #000DFF;
+        margin-left: 5px;
+        transition: .6s;
+    }
+
+    .modoDarkLight.darkMobile .botaoModoDarkLight{
+        margin-left: 53px;
+        transition: .6s;
+    }
+
     /*  */
     #tituloMain{
         display: flex;
