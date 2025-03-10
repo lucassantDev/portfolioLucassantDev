@@ -27,6 +27,10 @@ ul a:hover{
     transition:  ease-in-out .3s;
 }
 
+.funcionalidadesMobile{
+    display: none;
+}
+
 .modoTela{
     border: 2px solid var(--cor01);
     width: 120px;
