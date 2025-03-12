@@ -11,7 +11,7 @@ function linkedinLink(){
 
 addEventListener("click", mudarCor());
 function mudarCor(){
-    let modoTela = document.getElementById('modoTela');
+    let modoTela = document.getElementById('corFundo');
     let body = document.querySelector('body');
     modoTela.classList.toggle('dark'); // a propriedade toggle insere ou remove uma classe 
     body.classList.toggle('dark'); // a propriedade toggle insere ou remove uma classe 

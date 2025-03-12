@@ -25,6 +25,7 @@
 .projetos{
     min-width: 300px;
     max-height: 400px;
+    padding: 10px;
     background-color: #fff;
     border: 2px solid var(--cor01);
     margin-left: 25px;
@@ -45,4 +46,18 @@
 .imagemProjeto img{
     scale: 0.7;
     /* border: 1px solid red; */
+}
+
+.tituloProjeto{
+    margin-top: 10px;
+    font-family: var(--fontePrincipal);
+}
+
+.descricaoProjeto{
+    font-family: var(--fonteSecundaria);
+    font-size: 1rem;
+}
+
+.fontePrincipal{
+    font-family: var(--fontePrincipal);
 }

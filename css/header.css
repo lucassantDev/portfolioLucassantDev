@@ -31,11 +31,11 @@ ul a:hover{
     display: none;
 }
 
-.modoTela{
+.corFundo{
     border: 2px solid var(--cor01);
     width: 120px;
     height: 45px;
-    margin-left: 500px;
+    margin-left: 30%;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -57,14 +57,14 @@ ul a:hover{
 
 /* estilização -> modo dark */
 
-.modoTela.dark .lightDarkMode{
+.corFundo.dark .lightDarkMode{
     left: 65px;
     transition: .5s;
     background-color:var(--corModoDark) ;
     border: 2px solid #fff;
 }
 
-.modoTela.dark {
+.corFundo.dark {
     transition: .5s;
     background-color: var(--corModoDark);
     border: 2px solid #fff;

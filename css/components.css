@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+:root{
+    --fontePrincipal: "DMSans";
+    --fonteSecundaria: "Altone Trial";
+    --cor00: #000;
+    --cor01: #000DFF;
+    --cor02: #FF5A13;
+    --cor03: #0fc4c49d;
+    --corModoDark: #222222;
+}
+
 .medida{
     width: 100%;
     height: 110vh;
