@@ -35,75 +35,75 @@
 
 /* Inicio da medida para smartphones */
 @media screen and (max-width:480px){
-
-    header, #imagemDesktop, .quadrado,
-    #habilidadesDesenvolvedor, #habilidadesDesenvolvedor-bottom{
-        display: none;
-    }
+    header, #imagemDesktop, 
+    .quadrado, #habilidadesDesenvolvedor, 
+    #habilidadesDesenvolvedor-bottom{ display: none; }
 
     .medida{
         height: 105vh;
     }
 
     #mobileTablet{
+        height: 50px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        height: 50px;
     }
+    
     .secoes a{
-        color: var(--cor01);
         font-weight: 200;
         font-size: 0.8rem;
+        color: var(--cor01);
         text-decoration: none;
         font-family: var(--fonteSecundaria);
     }
 
     .funcionalidadesMobile{
-        background-color: #acacaccb;
-        border-radius: 20px;
-        width: 230px;
-        height: 60px;
-        position: fixed;
         top: 89%;
         left: 72px;
+        width: 230px;
+        height: 60px;
         display: flex;
+        position: fixed;
         align-items: center;
+        border-radius: 20px;
+        border: 2px solid #000DFF;
+        background-color: #fffcfce7;
         justify-content: space-evenly;
     }
 
     .setaInicio{
+        color: #fff;
         width: 40px;
         height: 40px;
-        color: #fff;
-        background: linear-gradient(65deg, #000DFF, #0fc4c49d);
-        border-radius: 20px;
         display: flex;
         align-items: center;
+        border-radius: 20px;
         justify-content: center;
+        background: linear-gradient(65deg, #000DFF, #0fc4c49d);
     }
 
     .modoDarkLight{
         width: 90px;
         height: 40px;
-        border-radius: 20px;
-        border: 1px solid #000DFF;
         display: flex;
         align-items: center;
+        border-radius: 20px;
+        border: 1px solid #000DFF;
     }
 
     .botaoModoDarkLight{
         width: 30px;
         height: 30px;
+        transition: .6s;
+        margin-left: 5px;
         border-radius: 20px;
         border: 1px solid #000DFF;
-        margin-left: 5px;
-        transition: .6s;
     }
 
     .modoDarkLight.darkMobile .botaoModoDarkLight{
-        margin-left: 53px;
         transition: .6s;
+        margin-left: 53px;
     }
 
     /*  */
@@ -118,6 +118,7 @@
         font-size: 2rem;
         margin-right: 0;
     }
+    
     #desenvolvedor{
         font-size: 1.7rem;
         margin-left: 0;
@@ -128,6 +129,7 @@
     #paletaCores{
         height: 5px;
     }
+    
     /*  */
 
     #secao01{
@@ -138,8 +140,8 @@
     }
 
     #imagemDesenvolvedor #imagemTabletMobile{
-        display: flex;
         border: none;
+        display: flex;
         border-radius: 0;
     }
 
@@ -176,10 +178,10 @@
     #sobreTecnologias{
         width: 90%;
         margin-left:0;
-        margin-top: 120px;
-        font-size: 1rem;
-        font-weight: bold;
         color: #3a3838;
+        font-size: 1rem;
+        margin-top: 120px;
+        font-weight: bold;
     }
     /*  */
 
