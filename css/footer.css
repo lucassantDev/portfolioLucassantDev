@@ -8,10 +8,10 @@ footer{
 }
 
 #rodapeProjeto{
-    border: 2px solid var(--cor01);
+    border: 1px solid var(--cor01);
     padding: 15px;
     width: 90%;
-    border-radius: 35px;
+    border-radius: 20px;
     font-family: var(--fontePrincipal);
     font-weight: 600;
     color: var(--cor01);
