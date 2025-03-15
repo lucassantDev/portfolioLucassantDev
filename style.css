@@ -63,12 +63,13 @@
         left: 72px;
         width: 230px;
         height: 60px;
-        display: flex;
+        z-index: 101; /*propriedade para fazer com que um elemento possa sobrepor outro com um z-index menor*/
+        display: flex; 
         position: fixed;
         align-items: center;
         border-radius: 20px;
-        border: 2px solid #000DFF;
-        background-color: #fffcfce7;
+        border: 1px solid #000DFF;
+        background-color: #fffcfc5b;
         justify-content: space-evenly;
     }
 
@@ -115,12 +116,12 @@
     }
 
     #portfolio{
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-right: 0;
     }
     
     #desenvolvedor{
-        font-size: 1.7rem;
+        font-size: 1.9rem;
         margin-left: 0;
         margin-bottom: 0;
         margin-bottom: 150px;
@@ -139,10 +140,14 @@
         flex-direction: column;
     }
 
-    #imagemDesenvolvedor #imagemTabletMobile{
-        border: none;
+    .imagemTabletMobile{
+        scale: 0.8;
         display: flex;
-        border-radius: 0;
+        width: 250px;
+        height: 350px;
+        z-index: 100;
+        background-size: cover;
+        background-image: url(assets/img/img_perfilMobile.png);
     }
 
     #sobreDesenvolvedor{
