@@ -61,6 +61,7 @@
     .funcionalidadesMobile{
         top: 89%;
         left: 72px;
+        z-index: 1;
         width: 230px;
         height: 60px;
         display: flex;
@@ -90,6 +91,8 @@
         align-items: center;
         border-radius: 20px;
         border: 1px solid #000DFF;
+        transition: .6s;
+
     }
 
     .botaoModoDarkLight{
@@ -101,12 +104,19 @@
         border: 1px solid #000DFF;
     }
 
+    .modoDarkLight.darkMobile{
+        background: linear-gradient(65deg, #FF5A13, #000);
+        transition: .6s;
+        border: none;
+    }
     .modoDarkLight.darkMobile .botaoModoDarkLight{
         transition: .6s;
         margin-left: 53px;
+        background-color: #fff;
+        border: none;
     }
-
     /*  */
+
     #tituloMain{
         display: flex;
         align-items: center;
@@ -155,6 +165,7 @@
         color: #3a3838;
     }
     /*  */
+
     #secao02{
         display: flex;
         align-items: center;
@@ -184,27 +195,6 @@
         font-weight: bold;
     }
     /*  */
-
-    .redes{
-        width: 80%;
-        height: 150px;
-        flex-direction: column;
-    }
-
-    .redes:hover{
-        transition: .6s;
-    }
-
-    .redes div{
-        font-size: 3rem;
-    }
-
-    .redes p{
-        width: fit-content;
-        height: fit-content;
-    }
-    /*  */
-
     footer{ height: 15rem; }
     
     #rodapeProjeto{
