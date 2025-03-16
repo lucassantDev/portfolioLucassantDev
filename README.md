@@ -1,7 +1,8 @@
 # Portfólio 2025
 
-Esse é meu portfólio, um projeto que já teve algumas versões mas acredito que essa será a definitiva, apenas com algumas melhorias ao passar do tempo.
+Esse é meu portfólio, um projeto que já teve algumas versões, porém, acredito que essa será a definitiva apenas com algumas melhorias ao passar do tempo.
 
+Neste projeto, está listado as tecnologias que utilizo ou estou estudando no momento além de contar um pouco sobre mim e apresentar meus projetos desenvolvidos até então.
 ---
 
 ## Tecnologias
