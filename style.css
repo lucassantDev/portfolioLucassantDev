@@ -115,6 +115,70 @@
         background-color: #fff;
         border: none;
     }
+
+    /* estilizacao darkMobile -> body e cabeçalho mobile */
+    body.darkMobile{
+        background-color: var(--corModoDark);
+    }
+    
+    body.darkMobile p{
+        color: #fff;
+        transition: .5s;
+    }
+    body.darkMobile span{
+        color: var(--cor02);
+        transition: .5s;
+    }
+    
+    body.darkMobile a{
+        color: #fff;
+        transition:  ease-in-out .3s;
+    }
+    
+    body.darkMobile a:hover{
+        color: var(--cor02);
+        transition:  ease-in-out .3s;
+    }
+    /*  */
+
+    body.darkMobile .setaInicio{
+        background: linear-gradient(65deg, #FF5A13, #000);
+
+    }
+
+    body.darkMobile .funcionalidadesMobile{
+        border: none;
+        background-color: #0000004b;
+    }
+
+    body.darkMobile #portfolio{
+        background: linear-gradient(to left,var(--cor02), var(--cor01));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    body.darkMobile #desenvolvedor{
+        background: linear-gradient(to left,var(--cor02), var(--cor01));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    body.darkMobile .tecnologias{
+        background-color: #fff;
+        color: var(--corModoDark);
+    }
+
+    /* estilo darkMobile -> footer */
+    body.darkMobile #rodapeProjeto{
+        border: 1px solid var(--cor02);
+    } 
+    
+    body.darkMobile #rodapeProjeto p{
+        color: var(--cor02);
+    } 
+    
     /*  */
 
     #tituloMain{
