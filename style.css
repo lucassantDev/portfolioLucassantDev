@@ -20,7 +20,7 @@
     --corModoDark: #222222;
 }
 
-#habilidadesTabletMobile, #imagemTabletMobile, #mobileTablet{
+#habilidadesTabletMobile, #imagemTabletMobile, #mobileTablet, .redesMobile{
     display: none;
 }
 
@@ -35,12 +35,12 @@
 
 /* Inicio da medida para smartphones */
 @media screen and (max-width:480px){
-    header, #imagemDesktop, 
+    header, #imagemDesktop, .redes, #secao04,
     .quadrado, #habilidadesDesenvolvedor, 
     #habilidadesDesenvolvedor-bottom{ display: none; }
 
     .medida{
-        height: 105vh;
+        height: 106vh;
     }
 
     #mobileTablet{
@@ -50,6 +50,10 @@
         justify-content: space-evenly;
     }
     
+    #minhasRedes{ /*id #minhasRedes está na div mobileTablet, referente ao link da secao04. Esse link só aparecerá em tablets e desktop*/
+        display: none;
+    }
+
     .secoes a{
         font-weight: 200;
         font-size: 0.8rem;
@@ -90,7 +94,7 @@
         display: flex;
         align-items: center;
         border-radius: 20px;
-        border: 1px solid #000DFF;
+        background: linear-gradient(65deg, #000DFF, #0fc4c49d);
     }
 
     .botaoModoDarkLight{
@@ -99,7 +103,7 @@
         transition: .6s;
         margin-left: 5px;
         border-radius: 20px;
-        border: 1px solid #000DFF;
+        background-color: #fff;
     }
 
     .modoDarkLight.darkMobile .botaoModoDarkLight{
@@ -129,6 +133,7 @@
 
     #paletaCores{
         height: 5px;
+        margin-top: 25px;
     }
     
     /*  */
@@ -148,6 +153,28 @@
         z-index: 100;
         background-size: cover;
         background-image: url(assets/img/img_perfilMobile.png);
+    }
+
+    .redesMobile{
+        width: 250px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+    }
+
+    .linkRedes{
+        width: 75px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: #fff;
+        background-color: var(--cor01);
+        border-radius: 15px;
+        box-shadow: 0px 2px 4px #0000007a;
     }
 
     #sobreDesenvolvedor{
@@ -171,7 +198,7 @@
         gap: 15px;
         display: flex;
         flex-wrap: wrap;
-        margin-top: 70px;
+        margin-top: 120px;
         align-items: center;
         justify-content: center;
     }
@@ -185,32 +212,19 @@
         margin-left:0;
         color: #3a3838;
         font-size: 1rem;
-        margin-top: 120px;
+        margin-top: 140px;
         font-weight: bold;
     }
     /*  */
-
-    .redes{
-        width: 80%;
-        height: 150px;
-        flex-direction: column;
+    #secao03{
+        height: 50%;
     }
 
-    .redes:hover{
-        transition: .6s;
-    }
-
-    .redes div{
-        font-size: 3rem;
-    }
-
-    .redes p{
-        width: fit-content;
-        height: fit-content;
+    .projetos{
+        scale: 0.9;
     }
     /*  */
-
-    footer{ height: 15rem; }
+    footer{ height: 10rem; }
     
     #rodapeProjeto{
         scale: 0.8;
