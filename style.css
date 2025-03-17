@@ -67,7 +67,7 @@
         left: 72px;
         width: 230px;
         height: 60px;
-        z-index: 101; /*propriedade para fazer com que um elemento possa sobrepor outro com um z-index menor*/
+        z-index: 1; /*propriedade para fazer com que um elemento possa sobrepor outro com um z-index menor*/
         display: flex; 
         position: fixed;
         align-items: center;
@@ -95,6 +95,7 @@
         align-items: center;
         border-radius: 20px;
         background: linear-gradient(65deg, #000DFF, #0fc4c49d);
+        transition: .6s;
     }
 
     .botaoModoDarkLight{
@@ -106,12 +107,89 @@
         background-color: #fff;
     }
 
+    .modoDarkLight.darkMobile{
+        background: linear-gradient(65deg, #FF5A13, #000);
+        transition: .6s;
+        border: none;
+    }
     .modoDarkLight.darkMobile .botaoModoDarkLight{
         transition: .6s;
         margin-left: 55px;
+        background-color: #fff;
+        border: none;
     }
 
+    /* estilizacao darkMobile -> body e cabeçalho mobile */
+    body.darkMobile{
+        background-color: var(--corModoDark);
+    }
+    
+    body.darkMobile p{
+        color: #fff;
+        transition: .5s;
+    }
+    body.darkMobile span{
+        color: var(--cor02);
+        transition: .5s;
+    }
+    
+    body.darkMobile a{
+        color: #fff;
+        transition:  ease-in-out .3s;
+    }
+    
+    body.darkMobile a:hover{
+        color: var(--cor02);
+        transition:  ease-in-out .3s;
+    }
     /*  */
+
+    body.darkMobile .setaInicio{
+        background: linear-gradient(65deg, #FF5A13, #000);
+
+    }
+
+    body.darkMobile .funcionalidadesMobile{
+        border: none;
+        background-color: #0000004b;
+    }
+
+    body.darkMobile #portfolio{
+        background: linear-gradient(to left,var(--cor02), var(--cor01));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    body.darkMobile #desenvolvedor{
+        background: linear-gradient(to left,var(--cor02), var(--cor01));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    body.darkMobile .tecnologias{
+        background-color: #fff;
+        color: var(--corModoDark);
+    }
+
+    body.darkMobile .linkRedes{
+        color: var(--cor02);
+        border: 1px solid var(--cor02);
+        background-color: transparent;
+    }
+
+    /* estilo darkMobile -> footer */
+    body.darkMobile #rodapeProjeto{
+        border: 1px solid var(--cor02);
+    } 
+    
+    body.darkMobile #rodapeProjeto p{
+        color: var(--cor02);
+    } 
+    
+    /*  */
+
     #tituloMain{
         display: flex;
         align-items: center;
@@ -187,6 +265,7 @@
         color: #3a3838;
     }
     /*  */
+
     #secao02{
         display: flex;
         align-items: center;
@@ -217,14 +296,15 @@
     }
     /*  */
     #secao03{
-        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
-    .projetos{
-        scale: 0.9;
-    }
     /*  */
-    footer{ height: 10rem; }
+
+    footer{ height: 15rem; }
     
     #rodapeProjeto{
         scale: 0.8;
