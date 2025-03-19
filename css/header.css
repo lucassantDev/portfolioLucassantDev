@@ -130,6 +130,10 @@ body.dark .botaoProjeto{
     background-color: var(--cor02);
 }
 
+body.dark .contornoImagem{
+    border: 2px solid var(--cor02);
+}
+
 /* estilo dark -> redes */
 
 body.dark .redes{

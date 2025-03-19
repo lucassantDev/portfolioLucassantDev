@@ -24,3 +24,26 @@ function mudarCorMobile(){
     modoDarkLight.classList.toggle('darkMobile'); // a propriedade toggle insere ou remove uma classe 
     body.classList.toggle('darkMobile'); // a propriedade toggle insere ou remove uma classe 
 }
+
+// função para ver o projeto funcionando e o código do repositório nubank
+function projetoNubank(){
+    window.open('https://lucassantdev.github.io/moldeNubank/');
+}
+
+function codigoNubank(){
+    window.open("https://github.com/lucassantDev/moldeNubank");
+}
+
+// função para ver o projeto funcionando e o código do repositório destinize
+function projetoDestinize(){
+    window.open("https://lucassantdev.github.io/projetoDestinize/");
+}
+
+function codigoDestinize(){
+    window.open("https://github.com/lucassantDev/projetoDestinize");
+}
+
+// função apenas para ver o código do projeto portfólio
+function codigoPortfolio(){
+    window.open("https://github.com/lucassantDev/portfolioLucassantDev");
+}
