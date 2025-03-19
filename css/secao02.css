@@ -1,16 +1,4 @@
 /* Estilização da #secao02 */
-
-#secao02:hover #numero02{
-    background-color: transparent;
-    color: var(--cor02);
-    transition: 1s ease-in-out;
-    border: 2px solid;
-    border-radius: 50%;
-}
-#secao02 #numero02{
-    transition: 1s ease-in-out;
-}
-
 #centralizarHabilidades{
     width: 100%;
     height: 50%;

@@ -95,14 +95,14 @@ body.dark a:hover{
 
 body.dark #portfolio{
     background: linear-gradient(to left,var(--cor02), var(--cor01));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
 
 body.dark #desenvolvedor{
     background: linear-gradient(to left,var(--cor02), var(--cor01));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
