@@ -167,7 +167,6 @@ body.dark .redes div{
     color: #fff;
 }
 
-
 /* estilização dark -> footer */
 body.dark #rodapeProjeto{
     border: 1px solid var(--cor02);

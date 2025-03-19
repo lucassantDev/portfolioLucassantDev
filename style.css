@@ -32,7 +32,6 @@
 }
 /* -------------------------------- Fim da estilização da medida para tablets */
 
-
 /* Inicio da medida para smartphones */
 @media screen and (max-width:480px){
     header, #imagemDesktop, .redes, #secao04,
@@ -146,7 +145,6 @@
 
     body.darkMobile .setaInicio{
         background: linear-gradient(65deg, #FF5A13, #000);
-
     }
 
     body.darkMobile .funcionalidadesMobile{
