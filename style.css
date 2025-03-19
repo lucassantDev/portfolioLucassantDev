@@ -178,8 +178,22 @@
         border: 1px solid var(--cor02);
         background-color: transparent;
     }
+    /* estilo darkMobile -> projetos */
+    body.darkMobile .projetos{
+        background-color: var(--corModoDark);
+        border: 2px solid var(--cor02);
+    }
+    
+    body.darkMobile .tituloProjeto{
+        color: #fff;
+    }
+    
+    body.darkMobile .botaoProjeto{
+        background-color: var(--cor02);
+    }
 
     /* estilo darkMobile -> footer */
+    
     body.darkMobile #rodapeProjeto{
         border: 1px solid var(--cor02);
     } 
@@ -230,7 +244,7 @@
         height: 350px;
         z-index: 100;
         background-size: cover;
-        background-image: url(assets/img/img_perfilMobile.png);
+        background-image: url(assets/img/imagemPerfilMobile.png);
     }
 
     .redesMobile{

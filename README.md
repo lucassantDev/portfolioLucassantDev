@@ -35,3 +35,8 @@ Neste projeto, está listado as tecnologias que utilizo ou estou estudando no mo
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
 />
 
+## Veja meu portfólio
+
+Você pode visualizar esse projeto acessando o seguinte link:
+
+

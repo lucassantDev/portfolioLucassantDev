@@ -12,7 +12,7 @@
 
 .funcoes{
     width: 100%;
-    height: 450px;
+    height: 600px;
     display: flex;
     overflow-x: auto ;
     margin-top: 50px;
@@ -23,8 +23,8 @@
 }
 
 .projetos{
-    min-width: 300px;
-    max-height: 450px;
+    min-width: 255px;
+    max-height: 460px;
     padding: 10px;
     background-color: #fff;
     border: 2px solid #00000041;
@@ -36,7 +36,7 @@
 
 .imagemProjeto{
     width: 100%;
-    height: 40%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@
 }
 
 .tituloProjeto{
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: var(--fontePrincipal);
 }
 
@@ -57,6 +57,7 @@
     font-size: 0.9rem;
     width: 100%;
     height: 35%;
+    margin-top: 20px;
 }
 
 .fontePrincipal{
@@ -78,7 +79,5 @@
     font-family: var(--fonteSecundaria);
     font-size: 0.9rem;
     width: 80%;
-    border: 1px solid red;
-    text-align: center;
     font-weight: 800;
 }

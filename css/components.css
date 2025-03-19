@@ -19,27 +19,3 @@
 }
 
 html { scroll-behavior: smooth; }
-
-.numeracaoPagina{
-    width: 30%;
-    height: 100px;
-    display: flex;
-    margin-left: 80px;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.quadrado{
-    width: 60px;
-    height: 60px;
-    display: flex;
-    color: #858484;
-    font-weight: 700;
-    margin-left: 10px;
-    font-size: 1.5rem;
-    border-radius: 100%;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #858484;
-    font-family: var(--fontePrincipal);
-}
