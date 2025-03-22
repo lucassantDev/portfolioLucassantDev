@@ -1,16 +1,4 @@
 /* estilização da seção04 */
-#secao04:hover #numero04{
-    background-color: transparent;
-    color: var(--cor02);
-    transition: 1s ease-in-out;
-    border: 2px solid;
-    border-radius: 50%;
-}
-
-#secao04 #numero04{
-    transition: 1s ease-in-out;
-}
-
 #centralizarRedes{
     width: 100%;
     height: 70%;
