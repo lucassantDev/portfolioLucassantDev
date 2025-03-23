@@ -41,4 +41,9 @@ Neste projeto, está listado as tecnologias que utilizo ou estou estudando no mo
 
 Você pode visualizar esse projeto acessando o seguinte link:
 
+https://portfolio-lucassantdev.vercel.app/
+
+ou digite o seguinte comando no seu terminal do vscode:
+
+
 
