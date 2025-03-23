@@ -4,7 +4,6 @@ Esse é meu portfólio, um projeto que já teve algumas versões, porém, acredi
 
 Neste projeto, está listado as tecnologias que utilizo ou estou estudando no momento além de contar um pouco sobre mim e apresentar meus projetos desenvolvidos até então.
 
----
 
 ## Tecnologias
 
@@ -34,16 +33,19 @@ Neste projeto, está listado as tecnologias que utilizo ou estou estudando no mo
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
 />
-
 <br><br>
-
 ## Veja meu portfólio
 
-Você pode visualizar esse projeto acessando o seguinte link:
+Você pode visualizar esse projeto <a href='https://portfolio-lucassantdev.vercel.app/'>clicando aqui</a>, ou digite o seguinte comando no seu terminal do seu editor de código:
 
-https://portfolio-lucassantdev.vercel.app/
-
-ou digite o seguinte comando no seu terminal do vscode:
+<ul>
+    <li>
+        git init
+    </li>
+    <li>
+        git clone https://github.com/lucassantDev/portfolioLucassantDev
+    </li>
+</ul>
 
 
 
