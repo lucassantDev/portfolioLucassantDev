@@ -1,9 +1,9 @@
 /* Estilização da #secao01 */
 #imagemDesenvolvedor #imagemDesktop{
-    scale: 0.2rem;
+    scale: 0.8;
     border-radius: 0px 70px 70px 0px;
     border: 4px solid #000DFF;
-    margin-left: 80px;
+    margin-left: 25px;
     margin-bottom: 30px;
 }
 
@@ -11,7 +11,7 @@
     width: 80%;
     font-family: var(--fonteSecundaria);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-left: 80px;
     margin-bottom: 30px;
 }

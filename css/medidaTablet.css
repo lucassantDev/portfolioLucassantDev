@@ -6,15 +6,15 @@
 
     .funcionalidadesMobile{
         top: 89%;
-        left: 72px;
-        width: 230px;
+        left: 31%;
+        width: 40%;
         height: 60px;
         z-index: 1; /*propriedade para fazer com que um elemento possa sobrepor outro com um z-index menor*/
         display: flex; 
         position: fixed;
         align-items: center;
         border-radius: 20px;
-        border: 1px solid #000DFF;
+        border: 2px solid #000DFF;
         background-color: #fffcfc5b;
         justify-content: space-evenly;
     }
@@ -154,7 +154,6 @@
         display: flex;
         height: 50px;
         width: 100%;
-        border: 1px solid red;
     }
 
     .secoes{
@@ -171,7 +170,6 @@
         font-size: 1.3rem;
         color: var(--cor01);
         text-decoration: none;
-        border: 1px solid red;
         font-family: var(--fonteSecundaria);
     }
 
@@ -185,7 +183,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid red;
         height: 100vh;
     }
 
@@ -212,7 +209,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid red;
         height: 90vh;
     }
 
@@ -231,7 +227,6 @@
         margin-top: 30px;
         margin-right: 35px;
         margin-left: 35px;
-        border: 1px solid red;
     }
     /*  */
 
@@ -240,11 +235,9 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid red;
     }
 
     #habilidadesDesenvolvedor, #habilidadesDesenvolvedor-bottom{
-        border: 1px solid red;
         width: 80%;
     }
 
@@ -256,7 +249,6 @@
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 30px;
-        border: 1px solid red;
     }
     /*  */
 
@@ -271,13 +263,18 @@
     .projetos{
         scale:1.1 ;
     }
+
+    .textoProjetos{
+        width: 50%;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
     /*  */
 
     #secao04{
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid red;
         height: 40vh;
     }
 

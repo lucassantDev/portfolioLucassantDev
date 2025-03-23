@@ -30,9 +30,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.descricaoTecnologia p{
     font-family: var(--fonteSecundaria);
     font-size: 1.2rem;
 }
