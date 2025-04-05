@@ -1,5 +1,7 @@
 /* estilização da seção04 */
-#secao04{
+.secao-04{
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,4 +63,5 @@
     justify-content: center;
     font-family: var(--fonteSecundaria);
     font-size: 1.2rem;
+    border: 1px solid red;
 }

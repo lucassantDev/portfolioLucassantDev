@@ -1,4 +1,8 @@
-
+.secao-03{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+}
 .funcoes{
     width: 100%;
     height: 600px;
