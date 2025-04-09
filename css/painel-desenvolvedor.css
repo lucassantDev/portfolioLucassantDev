@@ -1,6 +1,9 @@
 /* estilização da primeira parte do projeto */
 .painel-desenvolvedor{
     margin-bottom: 90px;
+    display:flex;
+    align-itens: center;
+    justify-content: center;
 }
 
 .gradiente-bg{
