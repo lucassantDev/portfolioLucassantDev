@@ -1,4 +1,8 @@
 /* estilização da primeira parte do projeto */
+.painel-desenvolvedor{
+    margin-bottom: 90px;
+}
+
 .gradiente-bg{
     max-width: 1600px;
     width: 80%;
@@ -49,7 +53,7 @@
 }
 
 #h4-imagem img{
-    scale: 0.2;
+    scale: 0.1;
     /* border: 1px solid red; */
     animation-name: hello;
     animation-duration: 2.5s;
@@ -77,12 +81,14 @@
 }
 
 .imagem-desenvolvedor{
-    width: 270px;
+    width: 350px;
     height: 270px;
-    border-radius: 100%;
-    background-color: blue  ;
-    position: relative;
-    top: 50%;
+    /* border-radius: 100%; */
+    background-image:url(../assets/img/imagemDesenvolvedor.png);
+    background-size: cover;
+    border: 1px solid red;
+    position: absolute;
+    top: 95%;
     left: 15%;
     /* border: 1px solid red; */
 }
