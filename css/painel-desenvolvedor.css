@@ -2,21 +2,23 @@
 .painel-desenvolvedor{
     margin-bottom: 90px;
     display:flex;
-    align-itens: center;
+    align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
+    height: 105vh;
 }
 
 .gradiente-bg{
     max-width: 1600px;
     width: 80%;
-    height: 600px;
-    margin-top: 75px;
-    border: 1px solid red;
+    height: 450px;
+    /*  */
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    margin-left: 120px;
-    margin-right: 100px;
-    background: linear-gradient(-60deg, #0fc4c49d, #000DFF, #FF5A13 );
+    background: linear-gradient(-60deg, #FF5A13, #000DFF, #0fc4c49d);
 }
 
 #boas-vindas{
@@ -24,11 +26,10 @@
     align-items: center;
     justify-content: center;
     flex-direction:column ;
-    border: 1px solid red;
-    position: relative;
+    /* border: 1px solid red; */
     left: 55%;
     top: 30%;
-    width: 450px;
+    width: 100%;
 }
 
 @keyframes hello{
@@ -42,25 +43,28 @@
 
 #h4-imagem{
     display: flex;
+    width: 420px;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
-    width: 450px;
     height: 55px;
+    margin-left: 24%;
+    /* border: 1px solid red; */
 }
 
 #h4-imagem h4{
-    margin-left: -45px;
-    margin-top: 20px;
+    width: fit-content;
+    font-family: var(--fontePrincipal);
     /* border: 1px solid red; */
+    margin-top: 20px;
 }
 
 #h4-imagem img{
-    scale: 0.1;
-    /* border: 1px solid red; */
+    scale: 0.2;
     animation-name: hello;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
+    /* border: 1px solid red; */
+
 }
 #h4-imagem{
     font-size: 1.5rem;
@@ -69,29 +73,29 @@
 
 #nome-desenvolvedor h1{
     font-size: 4rem;
+    width: 440px;
     font-family: var(--fontePrincipal);
     color: #fff;
+    margin-left: 35%;
 }
 
 #area-desenvolvedor{
     color: #fff;
     font-size: 1.5rem;
-    margin-left: -160px;
+    margin-left: -120px;
     margin-top: 5px;
     text-align: left;
     font-family: var(--fontePrincipal);
-    /* border: 1px solid red; */
+    margin-left: 13.3%;
 }
 
 .imagem-desenvolvedor{
-    width: 350px;
-    height: 270px;
-    /* border-radius: 100%; */
-    background-image:url(../assets/img/imagemDesenvolvedor.png);
+    width: 351px;
+    height: 344px;
+    scale: 0.7;
+    background-image:url(../assets/img/Rectangle\ 28.png);
     background-size: cover;
-    border: 1px solid red;
     position: absolute;
-    top: 95%;
-    left: 15%;
-    /* border: 1px solid red; */
+    top: 450px;
+    left: 170px;
 }
