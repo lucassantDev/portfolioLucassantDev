@@ -12,13 +12,11 @@
     max-width: 1600px;
     width: 80%;
     height: 450px;
-    /*  */
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    background: linear-gradient(-60deg, #FF5A13, #000DFF, #0fc4c49d);
+    background: linear-gradient(-160deg, #FF5A13, #000DFF, #0fc4c49d);
 }
 
 #boas-vindas{
@@ -26,7 +24,6 @@
     align-items: center;
     justify-content: center;
     flex-direction:column ;
-    /* border: 1px solid red; */
     left: 55%;
     top: 30%;
     width: 100%;
