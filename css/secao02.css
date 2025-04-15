@@ -8,11 +8,10 @@
 
 #tecnologias{
     width: 300px;
-    border: 1px solid red;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .icone-tecnologia{
@@ -33,7 +32,7 @@ article{
     width: 600px;
 }
 
-.h4-article{
+.h2-article{
     font-size: 2rem;
     color: var(--cor01);
     margin-bottom: 25px;
@@ -41,6 +40,6 @@ article{
 }
 
 .p-article{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-family: var(--fonteSecundaria);
 }

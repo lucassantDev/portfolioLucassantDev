@@ -1,0 +1,29 @@
+@media screen and (min-width: 1400px){
+  
+  .secao-01, .secao-02{
+    border: 1px solid red;
+    height: 107vh;
+  }
+  .h2-section-01, .secao-01 p{
+    font-size: 2rem;
+  }
+
+  #tecnologias{
+    width: 400px;
+
+  }
+  .icone-tecnologia{
+    width: 130px;
+    height: 130px;
+    font-size: 3rem;
+  }
+
+  .h4-article, .p-article{
+    font-size: 2rem;
+  }
+  
+  footer p{
+    scale: 1.5;
+  }
+
+}

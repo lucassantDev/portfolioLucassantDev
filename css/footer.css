@@ -10,8 +10,8 @@ footer p{
     padding: 20px;
     color: var(--cor01);
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 400;
     border-radius: 20px;
     border: 2px solid var(--cor01);
-    font-family: var(--fonteSecundaria);
+    font-family: var(--fontePrincipal);
 }
