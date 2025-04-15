@@ -13,6 +13,10 @@
     --corModoDark: #222222;
 }
 
+.caracterEspecial{
+    font-family: var(--fontePrincipal);
+}
+
 .medida{
     width: 100%;
     height: 110vh;

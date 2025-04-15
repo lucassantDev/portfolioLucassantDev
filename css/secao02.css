@@ -26,5 +26,21 @@
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
+    font-size: 2.4rem;
+}
+
+article{
+    width: 600px;
+}
+
+.h4-article{
     font-size: 2rem;
+    color: var(--cor01);
+    margin-bottom: 25px;
+    font-family: var(--fonteSecundaria);
+}
+
+.p-article{
+    font-size: 1.2rem;
+    font-family: var(--fonteSecundaria);
 }

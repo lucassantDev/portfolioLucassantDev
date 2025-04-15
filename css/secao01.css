@@ -4,13 +4,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    flex-direction: column;
 }
 
 .secao-01 p{
-    font-size: 2rem;
     width: 800px;
     font-weight: 500;
-    border: 1px solid red;
+    font-size: 1.7rem;
     font-family: var(--fontePrincipal);
+}
+
+.h4-section-01{
+    width: 800px;
+    font-size: 2rem;
+    color: var(--cor01);
+    margin-bottom: 25px;
+    font-family: var(--fonteSecundaria);
 }

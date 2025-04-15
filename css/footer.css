@@ -1,4 +1,17 @@
 footer{
     height: 50vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    padding: 20px;
+    color: var(--cor01);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid var(--cor01);
+    font-family: var(--fonteSecundaria);
 }
