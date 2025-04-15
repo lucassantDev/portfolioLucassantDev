@@ -1,14 +1,14 @@
-@media (min-width: 1400px){
-.h4-section-01, secao-01 p{
-  scale: 1.4;
-}
-
-.secao-02 #tecnologias, .h4-article, p-article{
-  scale: 1.4;
-}
-
-footer p{
-  scale: 1.4;
-}
+@media screen and (min-width: 1400px){
+  .h4-section-01, secao-01 p{
+    scale: 1.4;
+  }
+  
+  .secao-02 #tecnologias, .h4-article, p-article{
+    scale: 1.4;
+  }
+  
+  footer p{
+    scale: 1.4;
+  }
 
 }
