@@ -1,6 +1,6 @@
 @media screen and (min-width: 1400px){
   
-  .secao-01, .secao-02{
+  .secao-01, .secao-02, secao-03{
     border: 1px solid red;
     height: 107vh;
   }
@@ -22,7 +22,15 @@
   }
   
   footer p{
-    scale: 1.5;
+    scale: 1.2;
+  }
+
+  .h2-projetos-secao{
+    font-size: 2rem;
+  }
+  
+  .projeto{
+    scale: 2.2;
   }
 
 }
