@@ -1,4 +1,4 @@
-@media screen and (max-width: 300px){
+@media screen and (max-width: 480px){
     .painel-desenvolvedor, .secao-03{
         display: none;
     }
