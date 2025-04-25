@@ -6,12 +6,14 @@ footer{
     justify-content: center;
 }
 
-footer p{
+footer div{
+    width: 400px;
     padding: 20px;
-    color: var(--cor01);
     font-size: 1rem;
     font-weight: 400;
     border-radius: 20px;
+    text-align: center;
+    color: var(--cor01);
     border: 2px solid var(--cor01);
     font-family: var(--fontePrincipal);
 }

@@ -41,6 +41,7 @@ article{
 }
 
 .p-article{
+    font-weight: 500;
     font-size: 1.7rem;
-    font-family: var(--fonteSecundaria);
+    font-family: var(--fontePrincipal);
 }

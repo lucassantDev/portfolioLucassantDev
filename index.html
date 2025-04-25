@@ -14,8 +14,8 @@
 
     <header> <!-- inicio da tag header(cabeçalho) -->
         <ul>
-            <li><a href="#secao-01">Lucas Ferreira</a></li>
-            <li><a href="#secao-02">Tecnologias</a></li>
+            <li><a href="#secao-01">Sobre mim</a></li>
+            <li><a href="#secao-02">Tecnologias e ferramentas</a></li>
             <li><a href="#secao-03">Projetos</a></li>
         </ul>
     </header> <!-- fim da tag header(cabeçalho)-->
@@ -58,6 +58,23 @@
                 <!-- imagem aqui -->
             </div>
             
+        </section>
+
+        <section class="secao-mobile">
+            <div class="imagem-redes">
+                <img src="assets/img/imagemMobile.png" alt="Imagem do desenvolvedor">
+                <div class="redes-mobile" onclick="githubLink()">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="redes-mobile" onclick="linkedinLink()">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+
+            <h2>
+                Olá! Eu sou Lucas Ferreira,
+                desenvolvedor frontend.
+            </h2>
         </section>
 
         <section class="secao-01" id="secao-01">
@@ -109,14 +126,14 @@
 
         </section>
 
-        <section class="secao-03" id="secao-03">
+        <section class="secao-03" id="secao-03">                    
             <h2 class="h2-titulo-secao"> Projetos</h2>
             <div class="scroll-projetos">
                 <div class="projeto">
-                    <img id='imagem-nubank' src="assets/img/nubankIMG.png" alt="imagem do projeto nubank">
-                    
+                    <img id='imagem-nubank' src="assets/img/Group 7.png" alt="imagem do projeto nubank">
                     <h2 class="h2-projeto">Tela Nubank</h2>
-                    <p class="p-projeto">Projeto desenvolvido para trabalhar 
+                    <p class="p-projeto">
+                        Projeto desenvolvido para trabalhar 
                         o conceito de div’s.
                     </p>
                     <button class="botao-repositorio"> Ver repositório</button>
@@ -134,7 +151,8 @@
                 <div class="projeto">
                     <img id='imagem-destinize' src="assets/img/Group 6.png" alt="">
                     <h2 class="h2-projeto">Projeto Destinize</h2>
-                    <p class="p-projeto">Landing page voltada para fins educacionais,
+                    <p class="p-projeto">
+                        Landing page voltada para fins educacionais,
                         sobre uma empresa de viagens fictícia. 
                     </p>
                     <button class="botao-repositorio"> Ver repositório</button>
@@ -145,9 +163,11 @@
 
     </main>
     <footer>
-        <p>
-            Projeto desenvolvido por Lucas Ferreira - <span class="caracterEspecial">2025</span> 
-        </p>
+        <div>
+            <p>
+                Projeto desenvolvido por Lucas Ferreira - <span class="caracterEspecial">2025</span>
+            </p>
+        </div>
     </footer>
         
 </body>

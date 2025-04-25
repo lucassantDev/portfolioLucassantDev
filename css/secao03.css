@@ -66,6 +66,18 @@
     margin-left: 10px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.4s;
     background-color: var(--cor01);
     font-family: var(--fonteSecundaria);
+}
+
+
+.botao-projeto:hover{
+    transition: 0.4s;
+    background-color: var(--cor06);
+}
+
+.botao-repositorio:hover{
+    transition: 0.4s;
+    background-color: var(--cor06);
 }

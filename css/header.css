@@ -6,11 +6,17 @@ header{
     justify-content: center;
 }
 
-ul {display: flex;}
+ul {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 ul li{
-    margin-left: 50px;
-    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     list-style: none;
     cursor: pointer;
     font-size: 1.2rem;

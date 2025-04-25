@@ -29,8 +29,35 @@
     font-size: 2rem;
   }
   
+  .scroll-projetos{
+    height: 600px;
+    border: 1px solid red;
+  }
+
   .projeto{
-    scale: 1.7;
+    display: block;
+    max-width: 550px;
+    height: 450px;
+  }
+
+  .h2-projeto{
+    font-size: 1.5rem;
+  }
+
+  .p-projeto{
+    font-size: 1rem;
+  }
+
+  #imagem-nubank, #imagem-portfolio, #imagem-destinize{
+    scale: 0.8;
+    margin-left: -30px;
+  }
+
+  .botao-projeto, .botao-repositorio{
+    max-width: 330px;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 50px;
   }
 
 }
