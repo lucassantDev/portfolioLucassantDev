@@ -6,11 +6,9 @@
     header{
         width: 100%;
         height: 80px;
-        border: 1px solid red;
     }
     ul{
         width: 100%;
-        border: 1px solid red;
     
     }
     ul li{
@@ -21,26 +19,28 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 40vh;
+        height: 50vh;
         border: 1px solid red;
     }
 
     .imagem-redes{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: left;
+        width: 320px;
+        height: 100px;
+        margin-top: 140px;
     }
 
     .imagem-redes img{
-        scale: 0.7;
-        margin-left: -60px;
+        scale: 0.5;
     }
 
     .redes-mobile{
         width: 70px;
         height: 70px;
         border-radius: 25px;
-        margin-left: -20px;
+        margin-left: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -50,9 +50,10 @@
     }
 
     .secao-mobile h2{
-        margin-left: 10px;
+        margin-left: 35px;
+        margin-top: 20px;
         font-family: var(--fontePrincipal);
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         background: linear-gradient(65deg , var(--cor03)2%, var(--cor01), var(--cor02) 70%);
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -60,8 +61,7 @@
     }
 
     .secao-01{
-        border: 1px solid red;
-        height: 70vh;
+        height: 50vh;
     }
     .secao-01 p{
         width: 350px;
@@ -75,7 +75,7 @@
 
     .secao-02{
         flex-direction: column-reverse;
-        height: 80vh;
+        height: 70vh;
         border: 1px solid red;
     }
 
@@ -85,7 +85,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid red;
     }
 
     .secao-02 .h2-article{
