@@ -1,3 +1,15 @@
+@import url(./index.css);
+
+@font-face {
+    font-family: 'Altone Trial';
+    src: url(../assets/fontes/Altone\ Trial-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url(../assets/fontes/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +22,9 @@
     --cor01: #000DFF;
     --cor02: #FF5A13;
     --cor03: #0fc4c49d;
-    --corModoDark: #222222;
+    --cor04: #A49EA6;
+    --cor05: #a49ea67e;
+    --cor06: #171b63;
 }
 
 .caracterEspecial{

@@ -71,7 +71,6 @@
     font-family: var(--fonteSecundaria);
 }
 
-
 .botao-projeto:hover{
     transition: 0.4s;
     background-color: var(--cor06);
