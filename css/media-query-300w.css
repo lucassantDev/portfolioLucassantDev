@@ -126,19 +126,23 @@
 
     /*secao-03 */
     .secao-03{
-        height: 70vh;
+        height: 60vh;
     }
 
     .h2-titulo-secao{
         width: 350px;
         font-size: 1.2rem;
         text-align: left;
-        margin-top: 15px;
+        margin-top: 20px;
+    }
+
+    .scroll-projetos{
+        height: fit-content;
     }
     .projeto{
         scale: 0.8;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     /* footer */
@@ -151,4 +155,3 @@
         font-size: 0.7rem;
         font-weight: bold;
     }
-}
