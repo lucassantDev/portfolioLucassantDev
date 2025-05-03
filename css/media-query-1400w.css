@@ -1,6 +1,27 @@
 @media screen and (min-width: 1400px){
   
-  .secao-01, .secao-02, secao-03{
+  .painel-desenvolvedor{
+    border: 1px solid red;
+  }
+
+  #boas-vindas{
+    border: 1px solid red;
+    width: 700px;
+    margin-left: 30%;
+  }
+
+  #nome-desenvolvedor h1{
+    margin-left: 250px;
+  }
+
+  #h4-imagem{
+    margin-left: 200px;
+  }
+
+  .painel-desenvolvedor .imagem-desenvolvedor{
+    margin-top: 10%;
+  }
+  .secao-01, .secao-02, .secao-03{
     border: 1px solid red;
     height: 107vh;
   }
