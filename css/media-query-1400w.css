@@ -15,16 +15,22 @@
   }
 
   #h4-imagem{
-    margin-left: 200px;
+    margin-left: 150px;
   }
 
   .painel-desenvolvedor .imagem-desenvolvedor{
     margin-top: 10%;
   }
+
+  .redes-desenvolvedor{
+    margin-left: -82px;
+  }
+
   .secao-01, .secao-02, .secao-03{
     border: 1px solid red;
     height: 107vh;
   }
+
   .h2-section-01, .secao-01 p{
     font-size: 2rem;
   }
