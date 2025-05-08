@@ -13,6 +13,7 @@
     height: 450px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     background: linear-gradient(-160deg, #FF5A13, #000DFF, #0fc4c49d);
@@ -25,7 +26,8 @@
     flex-direction:column ;
     left: 55%;
     top: 30%;
-    width: 100%;
+    width: 60%;
+    border: 1px solid red;
 }
 
 @keyframes hello{
@@ -39,57 +41,60 @@
 
 #h4-imagem{
     display: flex;
-    width: 420px;
+    width: 100%;
     align-items: center;
     justify-content: center;
     height: 55px;
-    margin-left: 24%;
+    border: 1px solid red;
 }
 
 #h4-imagem h4{
     width: fit-content;
+    border: 1px solid red;
     font-family: var(--fontePrincipal);
     margin-top: 20px;
+    margin-left: -298px;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 #h4-imagem img{
     scale: 0.2;
+    border: 1px solid red;
     animation-name: hello;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
-
-}
-#h4-imagem{
-    font-size: 1.5rem;
-    color: #fff;
 }
 
 #nome-desenvolvedor h1{
     font-size: 4rem;
-    width: 440px;
+    width: 450px;
+    margin-left: -197px;
     font-family: var(--fontePrincipal);
     color: #fff;
-    margin-left: 35%;
+    border: 1px solid red;
 }
 
 #area-desenvolvedor{
+    width: 100%;
     color: #fff;
     font-size: 1.5rem;
-    margin-left: -120px;
     margin-top: 5px;
     text-align: left;
     font-family: var(--fontePrincipal);
-    margin-left: 13.3%;
+    border: 1px solid red;
 }
 
 .redes-desenvolvedor{
-    width: 150px;
+    width: 100px;
+    margin-left: -549px;
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 15px;
-    margin-left: -20px;
+    margin-bottom: 15px ;
+    border: 1px solid red;
 }
 
 .redes{
@@ -112,12 +117,10 @@
 }
 
 .imagem-desenvolvedor{
-    width: 351px;
+    width: 310px;
     height: 344px;
     scale: 0.7;
-    background-image:url(../assets/img/Rectangle\ 28.png);
+    background-image:url(../assets/img/imagemDesenvolvedor-02.png);
     background-size: cover;
-    position: absolute;
-    top: 450px;
-    left: 170px;
+    border: 1px solid red;
 }
