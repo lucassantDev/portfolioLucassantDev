@@ -1,4 +1,4 @@
-@media screen and (min-width: 481px) and (max-width: 1024px){
+@media screen and (min-width: 481px) and (max-width: 1034px){
     .painel-desenvolvedor{
         display: none;
     }
@@ -59,22 +59,22 @@
     }
 
     .secao-01, .secao-02, .secao-03{
+        width: 100%;
         border: 1px solid red;
     }
 
     .secao-01 p{
-        border: 1px solid red;
         font-size: 1.8;
         width: 80%;
     }
 
     .h2-section-01{
-        border: 1px solid red;
+        width: 80%;
         text-align: center;
     } 
 
     .secao-02{
-        height: 90vh;
+        height: 107vh;
         flex-direction: column-reverse;
     }
 
@@ -89,10 +89,16 @@
     }
 
     #tecnologias{
-        width: 55%;
-        scale: 1.2;
+        width: 500px;
+        scale: 1;
         border: 1px solid red;
     }
+
+    .projeto{
+        scale: 1;
+    }
+
+    
 
     
 }
