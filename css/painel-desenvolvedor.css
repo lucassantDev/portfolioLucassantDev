@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     height: 90vh;
-    border: 1px solid red;
 }
 
 .gradiente-bg{
@@ -24,7 +23,6 @@
     align-items: center;
     justify-content: center;
     flex-direction:column ;
-    border: 1px solid red;
     left: 55%;
     top: 30%;
     width: 60%;
@@ -41,26 +39,24 @@
 
 #h4-imagem{
     display: flex;
-    width: 100%;
+    width: 50%;
+    margin-right: 20rem;
     align-items: center;
     justify-content: center;
     height: 55px;
-    border: 1px solid red;
 }
 
 #h4-imagem #h4-ola{
-    width: fit-content;
+    width: 10rem;
     font-family: var(--fontePrincipal);
-    margin-top: 20px;
-    margin-left: -298px;
+    margin-top: 10px;
+    margin-left: 20px;
     font-size: 1.5rem;
     color: #fff;
-    border: 1px solid red;
 }
 
 #h4-imagem #div-imagem{
     scale: 0.145;
-    border: 1px solid red;
     animation-name: hello;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
@@ -78,8 +74,7 @@
     width: 100%;
     color: #fff;
     font-size: 1.5rem;
-    margin-top: 5px;
-    text-align: left;
+    margin: 5px 0px 0px 12px;
     font-family: var(--fontePrincipal);
 }
 
