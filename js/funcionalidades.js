@@ -47,3 +47,6 @@ function codigoDestinize(){
 function codigoPortfolio(){
     window.open("https://github.com/lucassantDev/portfolioLucassantDev", "_blank");
 }
+function projetoPortfolio(){
+    window.open("https://portfolio-lucassantdev.vercel.app", "_blank");
+}
