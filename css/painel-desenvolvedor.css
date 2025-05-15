@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 90vh;
+    border: 1px solid red;
 }
 
 .gradiente-bg{
@@ -23,6 +24,7 @@
     align-items: center;
     justify-content: center;
     flex-direction:column ;
+    border: 1px solid red;
     left: 55%;
     top: 30%;
     width: 60%;
@@ -43,19 +45,22 @@
     align-items: center;
     justify-content: center;
     height: 55px;
+    border: 1px solid red;
 }
 
-#h4-imagem h4{
+#h4-imagem #h4-ola{
     width: fit-content;
     font-family: var(--fontePrincipal);
     margin-top: 20px;
     margin-left: -298px;
     font-size: 1.5rem;
     color: #fff;
+    border: 1px solid red;
 }
 
-#h4-imagem img{
+#h4-imagem #div-imagem{
     scale: 0.145;
+    border: 1px solid red;
     animation-name: hello;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;

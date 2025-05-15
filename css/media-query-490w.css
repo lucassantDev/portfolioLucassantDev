@@ -60,7 +60,6 @@
 
     .secao-01, .secao-02, .secao-03{
         width: 100%;
-        border: 1px solid red;
     }
 
     .secao-01 p{
@@ -81,7 +80,6 @@
     article{
         width: 85%;
         text-align: center;
-        border: 1px solid red;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -91,14 +89,14 @@
     #tecnologias{
         width: 500px;
         scale: 1;
-        border: 1px solid red;
+    }
+
+    .scroll-projetos{
+        width: 80%;
     }
 
     .projeto{
         scale: 1;
     }
-
-    
-
     
 }
