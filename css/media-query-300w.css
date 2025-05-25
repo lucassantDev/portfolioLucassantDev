@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 650px){
     .painel-desenvolvedor{
         display: none;
     }
@@ -74,7 +74,8 @@
     }
 
     .secao-01{
-        height: 50vh;
+        height: fit-content;
+        border: 1px solid red;
     }
     .secao-01 p{
         width: 350px;
@@ -125,24 +126,21 @@
 
     /*secao-03 */
     .secao-03{
-        height: 60vh;
+        border: 1px solid red;
+        height: 85vh;
     }
 
     .h2-titulo-secao{
         width: 350px;
         font-size: 1.2rem;
-        text-align: left;
+        text-align: center;
         margin-top: 20px;
     }
 
-    .scroll-projetos{
-        height: fit-content;
+    .espaco-projetos{
+        
     }
-    .projeto{
-        scale: 0.8;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+
 
     /* footer */
     footer{
