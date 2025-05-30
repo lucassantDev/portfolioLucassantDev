@@ -75,53 +75,87 @@
 
     .secao-01{
         height: fit-content;
-        border: 1px solid red;
     }
+    
     .secao-01 p{
         width: 350px;
         font-size: 1rem;
     }
+
     .h2-section-01{
-        border: 1px solid red;
-        margin: 10px 0px 0px 40px;
-        width: 350px;
+        text-align: center;
+        width: 100%;
         font-size: 1.2rem;
     }
 
     /* secao-02 */
-
     .secao-02{
         height: fit-content;
         padding: 0px 0px 20px 0px;
         flex-direction: column-reverse;
-        border: 1px solid red;
     }
+
     .secao-02 > article{
-        border: 1px solid blue;
         width: fit-content;
+        margin: 20px 0px 0px 0px;
     }
 
     .secao-02 > article > h2{
-        margin: 10px 0px 0px 40px;
         font-size: 1.2rem;
-        border: 1px solid red;
-        width: fit-content;
+        text-align: center;
+        width: 100%;
     }
 
     .secao-02 > article > .p-article{
         font-size: 1rem;
-        width: 80%;
+        width: 350px;
+        font-size: 1rem;
     }
 
     .secao-02 > #tecnologias{
-        width: 90%;
+        width: 60%;
         height: fit-content;
-        border: 1px solid red;
+        margin: 15px 0px 0px 0px;
     }
 
     .secao-02 > #tecnologias > .icone-tecnologia{
         scale: 0.6;
         margin: 0px 0px 0px 0px;
+    }
+
+    .secao-03{
+        height: fit-content;
+    }
+
+    .h2-titulo-secao{
+        font-size: 1.2rem;
+        width: fit-content;
+    }
+
+    .espaco-projetos{
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .projeto{
+        scale: 0.6;
+        margin: -10px 0px -10px 0px;
+        padding: 10px 0px 20px 10px;
+    }
+
+    .botao-projeto, .botao-repositorio{
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+
+    footer{
+        height: 150px;
+    }
+
+    footer div{
+        scale: 0.7;
     }
 
 }
