@@ -1,12 +1,12 @@
-addEventListener("click", githubLink());
-addEventListener("click", linkedinLink());
+// addEventListener("click", githubLink());
+// addEventListener("click", linkedinLink());
 
 function githubLink(){
-    window.open("https://github.com/lucassantDev");
+    window.open("https://github.com/lucassantDev", '_blank');
 }
 
 function linkedinLink(){
-    window.open("https://www.linkedin.com/in/lucasferreira2023--/");
+    window.open("https://www.linkedin.com/in/lucasferreira2023--/", '_blank');
 }
 
 // addEventListener("click", mudarCor());
