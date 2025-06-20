@@ -13,6 +13,7 @@
     }
     ul li{
         font-size: 0.9rem;
+        font-weight: bolder;
     }
 
     /* secao-mobile */
@@ -21,8 +22,8 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        min-height: 40vh;
-        max-height: 60vh;
+        height: 400px;
+        border: 1px solid red;
     }
 
     .bloco{
@@ -74,10 +75,13 @@
     }
 
     .secao-01{
+        margin-top: 30px;
         height: fit-content;
     }
     
     .secao-01 p{
+        margin: 0 0 0 10px;
+        line-height: 155%;
         width: 350px;
         font-size: 1rem;
     }
@@ -90,12 +94,14 @@
 
     /* secao-02 */
     .secao-02{
+        margin-top: 50px;
         height: fit-content;
         padding: 0px 0px 20px 0px;
         flex-direction: column-reverse;
     }
 
     .secao-02 > article{
+        line-height: 155%;
         width: fit-content;
         margin: 20px 0px 0px 0px;
     }
@@ -107,7 +113,7 @@
     }
 
     .secao-02 > article > .p-article{
-        font-size: 1rem;
+        margin: 0 0 0 10px;
         width: 350px;
         font-size: 1rem;
     }
@@ -133,15 +139,23 @@
     }
 
     .espaco-projetos{
+        border: 1px solid red;
         height: fit-content;
         flex-direction: column;
         justify-content: center;
     }
 
     .projeto{
-        scale: 0.6;
+        border: 1px solid red;
+        scale: 0.7;
         margin: -10px 0px -10px 0px;
         padding: 10px 0px 20px 10px;
+    }
+
+    .p-projeto{
+        letter-spacing: 0.11px;
+        font-weight: normal;
+        /* line-clamp: 12px; */
     }
 
     .botao-projeto, .botao-repositorio{
@@ -155,7 +169,8 @@
     }
 
     footer div{
-        scale: 0.7;
+        scale: 0.8;
+        font-weight: bold;
     }
 
 }
