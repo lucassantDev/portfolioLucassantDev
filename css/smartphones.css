@@ -1,0 +1,181 @@
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .painel-desenvolvedor{
+        display: none;
+    }
+
+    /* header */
+    header{
+        width: 100%;
+        height: 80px;
+    }
+    ul{
+        width: 100%;
+    }
+    ul li{
+        font-size: 0.9rem;
+        font-weight: bolder;
+    }
+
+    /* secao-mobile */
+    .secao-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .bloco{
+        width: 350px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .imagem-redes{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 320px;
+        height: 100px;
+    }
+
+    .imagem-redes img{
+        scale: 0.5;
+        margin-left: -23px;
+    }
+
+    .redes-mobile{
+        width: 70px;
+        height: 70px;
+        border-radius: 25px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: var(--cor01);
+        background-color: #fff;
+        border: 1px solid var(--cor01);
+    }
+
+    .secao-mobile h2{
+        margin-left: 35px;
+        margin-top: 20px;
+        width: fit-content;
+        font-family: var(--fontePrincipal);
+        font-size: 1.4rem;
+        background: linear-gradient(65deg , var(--cor03)2%, var(--cor01), var(--cor02) 70%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;    
+    }
+
+    .secao-01{
+        margin-top: 30px;
+        height: fit-content;
+    }
+    
+    .secao-01 p{
+        margin: 0 0 0 10px;
+        line-height: 155%;
+        width: 350px;
+        font-size: 1rem;
+    }
+
+    .h2-section-01{
+        text-align: center;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    /* secao-02 */
+    .secao-02{
+        margin-top: 50px;
+        height: fit-content;
+        padding: 0px 0px 20px 0px;
+        flex-direction: column-reverse;
+    }
+
+    .secao-02 > article{
+        line-height: 155%;
+        width: fit-content;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .secao-02 > article > h2{
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .secao-02 > article > .p-article{
+        margin: 0 0 0 10px;
+        width: 350px;
+        font-size: 1rem;
+    }
+
+    .secao-02 > #tecnologias{
+        width: 60%;
+        height: fit-content;
+        margin: 15px 0px 0px 0px;
+    }
+
+    .secao-02 > #tecnologias > .icone-tecnologia{
+        scale: 0.7;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .p-tecnologia{
+        margin: 10px 0 0 0;
+        font-family: var(--fonteSecundaria);
+        font-size: 18px;
+    }
+
+
+    /* secao-03 */
+    .secao-03{
+        height: fit-content;
+    }
+
+    .h2-titulo-secao{
+        font-size: 1.2rem;
+        width: fit-content;
+    }
+
+    .espaco-projetos{
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .projeto{
+        scale: 0.7;
+        margin: -10px 0px -10px 0px;
+        padding: 10px 0px 20px 10px;
+    }
+
+    .p-projeto{
+        letter-spacing: 0.11px;
+        font-weight: normal;
+        /* line-clamp: 12px; */
+    }
+
+    .botao-projeto, .botao-repositorio{
+        padding: 20px;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+
+    footer{
+        height: 150px;
+    }
+
+    footer div{
+        scale: 0.8;
+        font-weight: bold;
+    }
+
+}
