@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) and (max-width: 1034px){
+@media screen and (min-width: 500px) and (max-width: 1000px){
     *{
         margin: 0;
         padding: 0;
@@ -28,7 +28,6 @@
         justify-content: center;
         flex-direction: column;
         height: fit-content;
-        border: 1px solid red;
     }
 
     .imagem-redes{
@@ -40,7 +39,7 @@
     }
 
     .imagem-redes img{
-        scale: 0.9;
+        scale: 0.7;
         margin-left: -23px;
     }
 
@@ -58,11 +57,31 @@
         border: 1px solid var(--cor01);
     }
 
+    .secao-02{
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .secao-02 article{
+        width: 90%;
+    }
+
+    .secao-02 #tecnologias{
+        width: 70%;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .secao-02 .icone-tecnologia{
+        scale: 1.2;
+        margin: 17px;
+    }
+
     .secao-mobile h2{
         width: 80%;
-        margin: 30px 0 0 0;
+        margin: 50px 0 0 0;
         font-family: var(--fontePrincipal);
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         text-align: center;
         background: linear-gradient(65deg , var(--cor03)2%, var(--cor01), var(--cor02) 70%);
         background-clip: text;
@@ -73,12 +92,7 @@
     .secao-01{
         width: 100%;
         height: fit-content;
-        padding-block: 190px;
-    }
-
-    .secao-02{
-        height: fit-content;
-        padding-block: 190px;
+        padding-block: 90px;
     }
 
     .projeto{
